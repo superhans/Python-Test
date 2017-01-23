@@ -3,7 +3,7 @@
 Obfuscating the test cases is a bit complicated, and requires the TA to follow the following steps.
 
 1. Create ```operations.py``` which contains the methods you want to test.
-2. Create ```tests.py``` which contains the test cases. 
+2. Create ```tests.py``` which contains the test cases. Remember that ```tests.py``` begins with ```# cython: emit_code_comments=False``` so that comments aren't included. (Otherwise the native python code would be included as a comment in the C Code)
 3. Run ```tests.py```. In this example, the output I get is :
 
 ```
