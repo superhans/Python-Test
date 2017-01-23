@@ -1,3 +1,4 @@
+# cython: emit_code_comments=False
 from operations import add, subtract, multiply
 import unittest
 
